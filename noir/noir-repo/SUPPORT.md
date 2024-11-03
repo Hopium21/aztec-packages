@@ -1,12 +1,12 @@
 # Participating in the Noir community
 
-Thank you for your interest in Noir! There are many ways to participate in the community and we appreciate all of them.
+Thank you for your interest in Noir! There are many ways to participate in the community, and we appreciate all of them.
 
 ## Asking Questions
 
 The best place to ask general questions about Noir is in the #noir channel on the [Noir discord](https://discord.gg/YpCUTkzTC7).
 
-It might also be helpful to review existing and previous Github issues to see if your question has been answered already.
+It might also be helpful to review existing and previous GitHub issues to see if your question has been answered already.
 
 For specific technical questions, submitting an issue in this repo may be the best place to ask.
 
@@ -17,7 +17,7 @@ Feedback is a gift. The #noir channel on Discord is a great synchronous channel 
 ## Submitting Issues
 
 Submitting an issue in this repository is a great way to contribute and get help with problems that you run into.
-When submitting an issue, please include as much detail as possible about the error message, your environment (OS, version numbers, etc) and the steps to reproduce the error.
+When submitting an issue, please include as much detail as possible about the error message, your environment (OS, version numbers, etc), and the steps to reproduce the error.
 
 ## Contributing to the Standard Library
 
@@ -25,7 +25,7 @@ Noir is still very new and there are many cryptographic primitives that we have 
 
 ## Funding Opportunities
 
-Aztec is offering grants to people and teams that want to use, test or build Noir. You can find more information about the grants program [here](https://aztec.network/grants).
+Aztec is offering grants to people and teams that want to use, test or build with Noir. You can find more information about the grants program [here](https://aztec.network/grants).
 
 ## Full-time Contributors
 
