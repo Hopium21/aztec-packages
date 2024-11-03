@@ -6,7 +6,7 @@ This folder contains verifier contracts and testing harnesses that are used by [
 
 The implementations maintain the same interface, regardless of the verifier flavour (Standard, Ultra), this should enable upstream implementations to be "plug-and-play".
 
-The verifier will follow an overall architecture below, consisting of 3 contracts/libraries. Namely, the verifier algorithm (stable across circuits), the verification key (circuit dependent) and then the "verifier instance", a base that reads from the verification key and uses the key's values in the verification algorithm. The main advantage of this design is that we can generate verification key's per circuit and plug them into a general verification algorithm.
+The verifier will follow an overall architecture below, consisting of 3 contracts/libraries. Namely, the verifier algorithm (stable across circuits), the verification key (circuit dependent) and then the "verifier instance", a base that reads from the verification key and uses the key's values in the verification algorithm. The main advantage of this design is that we can generate verification keys per circuit and plug them into a general verification algorithm.
 
 ![Verifier architecture](./figures/verifier.png)
 
@@ -22,7 +22,7 @@ Run `bootstrap.sh` to clone git submodules, download SRS and generate verificati
 
 # Tests
 
-Test are performed with a `TestBase` harness, it provides helpers for reading files and printing proofs. The tests also require proofs and verification keys, those are build as part of the `bootstrap.sh`.
+Tests are performed with a `TestBase` harness, it provides helpers for reading files and printing proofs. The tests also require proofs and verification keys, those are build as part of the `bootstrap.sh`.
 
 Note that foundry is set to just run 1 fuzz run, this is mainly to limit the duty for CI, and then it can be hammered more heavily when needed.
 
